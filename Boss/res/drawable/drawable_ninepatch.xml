@@ -1,0 +1,4 @@
+<nine-patch xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:src="@drawable/popup_bg"
+    android:dither="true"/>
+<!-- 必须为9.png,否则显示不出来 -->
