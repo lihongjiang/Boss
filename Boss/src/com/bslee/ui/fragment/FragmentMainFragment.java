@@ -40,6 +40,7 @@ public class FragmentMainFragment extends Fragment {
 		data.add("FragmentPagerAdapter测试ok");
 		data.add("FragmentStatePagerAdapter测试");
 		data.add("FragmentTabHost使用ok");	
+		data.add("Fragment生命周期");	
 	}
 	/**
 	 * 创建多次View
@@ -78,6 +79,9 @@ public class FragmentMainFragment extends Fragment {
 				break;
 			case 5:
 				startActivity(new Intent(getActivity(), FragmentTabHostActivity.class));
+				break;
+			case 6:
+				startActivity(new Intent(getActivity(), FragmentCycleActivity.class));
 				break;
 			default:
 				break;

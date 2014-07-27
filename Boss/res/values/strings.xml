@@ -20,5 +20,16 @@
         <item>全部</item>
         <item>部分</item> 
     </string-array>
+    <string name="local_service_started">local_service_started</string>
+    <string name="remote_service_label">remote_service_label</string>
+    <string name="remote_service_stopped">remote_service_stopped</string>
+    <string name="remote_service_started">remote_service_started</string>
+    <string name="remote_service_disconnected">remote_service_disconnected</string>
+    <string name="remote_service_connected">remote_service_connected</string>
+    <string name="local_service_label">local_service_label</string>
+    <string name="local_service_stopped">local_service_stopped</string>
+    <string name="local_service_disconnected">local_service_disconnected</string>
+    <string name="local_service_connected">local_service_connected</string>
+  
 
 </resources>

@@ -34,7 +34,7 @@ public class ProviderMainFragement extends Fragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		data.add("DialogFragment测试ok");
+		data.add("Content Providers");
 //		data.add("ListFragment测试ok");
 //		data.add("WebViewFragment测试");
 //		data.add("FragmentPagerAdapter测试ok");
@@ -59,26 +59,15 @@ public class ProviderMainFragement extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
-				// TODO Auto-generated method stub
+	
 			switch (arg2) {
 			case 0:
 				startActivity(new Intent(getActivity(), DialogFragmentActivity.class));
 				break;
 			case 1:	
-				startActivity(new Intent(getActivity(), ListFragmentActivity.class));
+			//	startActivity(new Intent(getActivity(), ListFragmentActivity.class));
 				break;
-			case 2:
-				
-				break;
-			case 3:
-				startActivity(new Intent(getActivity(), FragmentPagerAdapterActivity.class));
-				break;
-			case 4:
-				
-				break;
-			case 5:
-				startActivity(new Intent(getActivity(), FragmentTabHostActivity.class));
-				break;
+	
 			default:
 				break;
 			}	

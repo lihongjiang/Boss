@@ -34,8 +34,8 @@ public class ActivityMainFragment  extends Fragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		data.add("DialogFragment测试ok");
-//		data.add("ListFragment测试ok");
+		data.add("Activity生命周期");
+		data.add("Activity任务和启动模式");
 //		data.add("WebViewFragment测试");
 //		data.add("FragmentPagerAdapter测试ok");
 //		data.add("FragmentStatePagerAdapter测试");
@@ -61,7 +61,10 @@ public class ActivityMainFragment  extends Fragment {
 					long arg3) {
 			switch (arg2) {
 			case 0:
-				startActivity(new Intent(getActivity(), DialogFragmentActivity.class));
+				startActivity(new Intent(getActivity(), LifeCycleActivity.class));
+				break;
+			case 1:
+				startActivity(new Intent(getActivity(), TaskStackActivity.class));
 				break;
 			default:
 				break;

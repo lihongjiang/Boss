@@ -3,6 +3,7 @@ package com.bslee.ui;
 import com.bslee.R;
 import com.bslee.ui.activity.ActivityMainFragment;
 import com.bslee.ui.animation.AnimationMainFragment;
+import com.bslee.ui.atv.AtvMainFragemnt;
 import com.bslee.ui.bn.BroadNotiMainFragemnt;
 import com.bslee.ui.drawable.DrawableMainFragment;
 import com.bslee.ui.fragment.FragmentMainFragment;
@@ -189,7 +190,7 @@ public class DrawerLayoutActivity extends FragmentActivity {
 
 	}
 
-	public static final String[] RTITLES = { "跨平台开发", "网络操作" ,"路吃App"};
+	public static final String[] RTITLES = { "跨平台开发", "网络操作" ,"路吃App","ATV"};
 
 	/**
 	 * 右侧列表点击事件
@@ -217,6 +218,10 @@ public class DrawerLayoutActivity extends FragmentActivity {
 			case 2:
 				title = "路吃";
 				fragment = new MainPageFragment();
+				break;
+			case 3:
+				title = "ATV";
+				fragment = new AtvMainFragemnt();
 				break;
 			default:
 				break;

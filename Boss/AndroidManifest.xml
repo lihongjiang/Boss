@@ -30,6 +30,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="com.bslee.ui.service.MessengerService"
+            android:permission="com.bslee.ui.service.MessengerService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.bslee.ui.service.MessengerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.bslee.ui.service.LocalService">
+        </service>
+
+        <activity android:name="com.bslee.ui.service.LocalActivity" >
+        </activity>
+        <activity android:name="com.bslee.ui.service.MessengerActivity" >
+        </activity>
         <activity android:name="com.bslee.ui.widget.ActionBarListNavActivity" >
         </activity>
         <activity android:name="com.bslee.ui.widget.CustomActionBarActivity" >
@@ -80,7 +97,11 @@
         </activity>
         <activity android:name="com.bslee.ui.drawable.RotateDrawableFragmentActivity" >
         </activity>
-           <activity android:name="com.bslee.ui.drawable.GradientDrawableFragmentActivity" >
+        <activity android:name="com.bslee.ui.drawable.GradientDrawableFragmentActivity" >
+        </activity>
+        <activity android:name="com.bslee.ui.activity.LifeCycleActivity" >
+        </activity>
+        <activity android:name="com.bslee.ui.fragment.FragmentCycleActivity" >
         </activity>
     </application>
 

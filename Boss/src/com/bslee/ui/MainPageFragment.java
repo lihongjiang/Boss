@@ -34,28 +34,29 @@ public class MainPageFragment extends Fragment {
 	private PagerSlidingTabStrip tabs;
 	private DisplayMetrics dm;
 	ViewPager pager;
-	private final String[] titles = { "广场","组队","场馆","我" };
+	private final String[] titles = { "广场", "吃货", "小摊", "设置" };
 	private List<Fragment> list = new ArrayList<Fragment>();
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
-		//这里不要使用container,会出现已经存在View
+		// 这里不要使用container,会出现已经存在View
 		View view = inflater.inflate(R.layout.activity_main, null);
 		setOverflowShowingAlways();
 
-		list.add(new FirstFragment());
-		list.add(new FirstFragment());
-		list.add(new FirstFragment());
-		list.add(new FirstFragment());
-		
+		list.add(new MsgFragment());
+		list.add(new ContentFragment());
+		list.add(new EatFragment());
+		list.add(new SetFragment());
+
 		dm = getResources().getDisplayMetrics();
 		pager = (ViewPager) view.findViewById(R.id.pager);
 		tabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
 
-		//技术点:这里必须使用子碎片管理器,否则会出现问题
-		pager.setAdapter(new MyFragmentPagerAdapter(getChildFragmentManager(), list, titles));
+		// 技术点:这里必须使用子碎片管理器,否则会出现问题
+		pager.setAdapter(new MyFragmentPagerAdapter(getChildFragmentManager(),
+				list, titles));
 		tabs.setViewPager(pager);
 		setTabsValue();
 		return view;
