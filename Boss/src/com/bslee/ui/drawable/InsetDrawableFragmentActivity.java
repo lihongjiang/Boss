@@ -1,13 +1,12 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
-import android.graphics.PixelFormat;
 import android.graphics.drawable.InsetDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class InsetDrawableFragmentActivity extends FragmentActivity {
 

@@ -1,11 +1,8 @@
 package com.bslee.ui.widget;
 
-import com.bslee.R;
-import com.bslee.ui.widget.BookMarkerFragment.BookmarkListener;
-
-import android.os.Bundle;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.support.v4.widget.SlidingPaneLayout.PanelSlideListener;
@@ -14,6 +11,9 @@ import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.bslee.boss.R;
+import com.bslee.ui.widget.BookMarkerFragment.BookmarkListener;
 
 public class SlideLayoitActivity extends FragmentActivity implements
 		BookmarkListener {

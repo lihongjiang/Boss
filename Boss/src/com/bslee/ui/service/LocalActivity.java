@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 
 public class LocalActivity extends Activity {
     /** Called when the activity is first created. */

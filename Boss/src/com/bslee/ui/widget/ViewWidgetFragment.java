@@ -14,8 +14,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.bslee.R;
-import com.bslee.ui.DrawerLayoutActivity;
+import com.bslee.boss.R;
 
 public class ViewWidgetFragment extends Fragment {
 

@@ -1,13 +1,11 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
-import android.graphics.drawable.StateListDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class StateListDrawableFragmentActivity extends FragmentActivity {
 

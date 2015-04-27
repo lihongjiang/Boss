@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.widget.MyScrollLayout;
 
 /**

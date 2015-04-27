@@ -1,11 +1,5 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
-import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.graphics.drawable.RotateDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +8,8 @@ import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bslee.boss.R;
 
 public class RotateDrawableFragmentActivity extends FragmentActivity {
 	RotateDrawable rotateDrawable;

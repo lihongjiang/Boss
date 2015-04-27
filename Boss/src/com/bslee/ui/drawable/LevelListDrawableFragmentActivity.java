@@ -1,16 +1,13 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.LevelListDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class LevelListDrawableFragmentActivity extends FragmentActivity {
 	private int[] ids = new int[] { R.drawable.w01, R.drawable.w02,

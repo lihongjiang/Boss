@@ -1,9 +1,9 @@
 package com.bslee.ui.fragment;
 
-import com.bslee.R;
-
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+
+import com.bslee.boss.R;
 
 public class FragmentCycleActivity extends FragmentActivity {
 

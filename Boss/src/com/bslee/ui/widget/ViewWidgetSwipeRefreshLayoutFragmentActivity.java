@@ -3,18 +3,15 @@ package com.bslee.ui.widget;
 import java.util.ArrayList;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.bslee.R;
-import com.bslee.ui.fragment.FragmentPagerAdapterActivity;
+import com.bslee.boss.R;
 
 /**
  * 

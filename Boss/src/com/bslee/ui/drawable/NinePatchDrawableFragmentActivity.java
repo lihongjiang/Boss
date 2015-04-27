@@ -1,17 +1,11 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
-import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.NinePatch;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.NinePatchDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class NinePatchDrawableFragmentActivity extends FragmentActivity {
 

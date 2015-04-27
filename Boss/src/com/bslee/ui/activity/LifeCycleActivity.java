@@ -1,9 +1,9 @@
 package com.bslee.ui.activity;
 
-import com.bslee.R;
-
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.bslee.boss.R;
 
 public class LifeCycleActivity extends Activity {
 	@Override

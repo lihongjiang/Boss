@@ -2,9 +2,6 @@ package com.bslee.ui.service;
 
 import java.util.ArrayList;
 
-import com.bslee.R;
-import com.bslee.ui.DrawerLayoutActivity;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -17,6 +14,9 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.bslee.boss.R;
+import com.bslee.ui.DrawerLayoutActivity;
 
 public class MessengerService extends Service {
 

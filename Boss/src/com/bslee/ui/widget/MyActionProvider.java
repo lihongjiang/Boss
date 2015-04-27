@@ -1,11 +1,8 @@
 package com.bslee.ui.widget;
 
-import com.bslee.R;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.util.Log;
 import android.view.ActionProvider;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
@@ -15,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.Toast;
+
+import com.bslee.boss.R;
 
 @SuppressLint("NewApi")
 public class MyActionProvider extends ActionProvider {

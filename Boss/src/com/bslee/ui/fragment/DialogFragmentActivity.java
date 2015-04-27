@@ -1,7 +1,5 @@
 package com.bslee.ui.fragment;
 
-import com.bslee.R;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -17,6 +15,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 //使用DialogFragment类来显示和管理一个AlertDialog对话框
 

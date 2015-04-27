@@ -19,7 +19,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 
 public class MyPageTabActivity extends Activity {
 	private ViewPager mPager;// 页卡内容

@@ -14,7 +14,7 @@ import android.os.RemoteException;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 
 public class MessengerActivity extends Activity {
 	/** Called when the activity is first created. */

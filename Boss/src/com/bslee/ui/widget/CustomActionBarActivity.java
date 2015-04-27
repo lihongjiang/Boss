@@ -2,8 +2,6 @@ package com.bslee.ui.widget;
 
 import java.util.ArrayList;
 
-import com.bslee.R;
-
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
@@ -12,12 +10,13 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
+
+import com.bslee.boss.R;
 
 @SuppressLint("NewApi")
 public class CustomActionBarActivity extends Activity implements

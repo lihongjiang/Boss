@@ -1,7 +1,5 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
@@ -15,6 +13,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class TransitionDrawableFragmentActivity extends FragmentActivity {
 	private int change = 0;

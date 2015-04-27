@@ -3,14 +3,14 @@ package com.bslee.ui.sdk;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bslee.R;
-import com.bslee.ui.adapter.ChatAdapter;
-import com.bslee.ui.bean.Message;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+
+import com.bslee.boss.R;
+import com.bslee.ui.adapter.ChatAdapter;
+import com.bslee.ui.bean.Message;
 
 
 /**

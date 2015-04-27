@@ -3,11 +3,8 @@ package com.bslee.ui.widget;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bslee.R;
-
 import android.app.Activity;
 import android.app.Fragment;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,6 +18,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+
+import com.bslee.boss.R;
 
 public class BookMarkerFragment extends Fragment {
 

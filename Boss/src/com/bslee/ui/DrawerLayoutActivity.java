@@ -1,6 +1,24 @@
 package com.bslee.ui;
 
-import com.bslee.R;
+import android.annotation.SuppressLint;
+import android.content.res.Configuration;
+import android.os.Bundle;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+
+import com.bslee.boss.R;
 import com.bslee.ui.activity.ActivityMainFragment;
 import com.bslee.ui.animation.AnimationMainFragment;
 import com.bslee.ui.atv.AtvMainFragemnt;
@@ -15,27 +33,7 @@ import com.bslee.ui.provider.ProviderMainFragement;
 import com.bslee.ui.sdk.SdkMainFragment;
 import com.bslee.ui.sensor.SensorMainFragement;
 import com.bslee.ui.service.ServiceMainFragement;
-import com.bslee.ui.widget.FirstFragment;
-import com.bslee.ui.widget.SecondFragment;
 import com.bslee.ui.widget.ViewWidgetFragment;
-
-import android.annotation.SuppressLint;
-import android.content.res.Configuration;
-import android.os.Bundle;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.RelativeLayout;
-import android.widget.AdapterView.OnItemClickListener;
 
 //抽屉导航实现侧滑菜单
 public class DrawerLayoutActivity extends FragmentActivity {

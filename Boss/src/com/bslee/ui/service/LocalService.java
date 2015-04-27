@@ -10,7 +10,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.DrawerLayoutActivity;
 
 public class LocalService extends Service {

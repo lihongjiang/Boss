@@ -1,21 +1,19 @@
 package com.bslee.ui.widget;
 
-import com.bslee.R;
-
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.ActionBar.OnNavigationListener;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.SearchView;
-import android.widget.SearchView.OnQueryTextListener;
 import android.widget.ShareActionProvider;
 import android.widget.SpinnerAdapter;
+
+import com.bslee.boss.R;
 
 public class ActionBarListNavActivity extends FragmentActivity {
 

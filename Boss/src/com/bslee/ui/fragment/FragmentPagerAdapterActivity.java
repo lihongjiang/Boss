@@ -10,8 +10,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -19,11 +17,9 @@ import android.view.Menu;
 import android.view.ViewConfiguration;
 import android.view.Window;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.adapter.MyFragmentPagerAdapter;
-import com.bslee.ui.sdk.SdkMainFragment;
 import com.bslee.ui.widget.FirstFragment;
-import com.bslee.ui.widget.ViewWidgetFragment;
 import com.bslee.widget.PagerSlidingTabStrip;
 
 

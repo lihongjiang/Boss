@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.bean.Message;
 
 /**

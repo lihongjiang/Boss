@@ -10,15 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.AdapterView.OnItemClickListener;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.fragment.DialogFragmentActivity;
-import com.bslee.ui.fragment.FragmentPagerAdapterActivity;
-import com.bslee.ui.fragment.FragmentTabHostActivity;
-import com.bslee.ui.fragment.ListFragmentActivity;
 
 public class ProviderMainFragement extends Fragment {
 

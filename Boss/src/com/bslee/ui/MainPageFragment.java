@@ -1,29 +1,22 @@
 package com.bslee.ui;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
-import android.view.Window;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.adapter.MyFragmentPagerAdapter;
-import com.bslee.ui.widget.FirstFragment;
 import com.bslee.widget.PagerSlidingTabStrip;
 
 public class MainPageFragment extends Fragment {

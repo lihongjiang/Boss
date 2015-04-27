@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 
 public class TitlesFragment extends ListFragment {  
   

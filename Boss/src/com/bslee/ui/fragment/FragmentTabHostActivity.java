@@ -2,14 +2,13 @@ package com.bslee.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTabHost;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 import com.bslee.ui.widget.FirstFragment;
 
 public class FragmentTabHostActivity extends FragmentActivity {

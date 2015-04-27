@@ -1,11 +1,11 @@
 package com.bslee.ui.drawable;
 
-import com.bslee.R;
-
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bslee.boss.R;
 
 public class AnimationDrawableFragmentActivity extends FragmentActivity {
 	

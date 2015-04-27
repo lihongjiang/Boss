@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bslee.R;
+import com.bslee.boss.R;
 
 public class BitmapDrawableFragmentActivity extends FragmentActivity {
 
